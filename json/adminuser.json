@@ -1,0 +1,32 @@
+[
+    { "usuario": "margarita",
+     "contrasena": "margarita",
+    "tipo": "admin"
+    },
+
+    { "usuario": "pablo",
+     "contrasena": "pablo" ,
+     "tipo": "admin"},
+
+    {"usuario":"jonier",
+    "contrasena":"jonier",
+    "tipo": "admin"},
+
+    {"usuario":"user1",
+    "contrasena":"user1",
+    "tipo": "usuario"},
+
+    {"usuario":"user2",
+    "contrasena":"user2",
+    "tipo": "usuario"},
+
+    {"usuario":"user3",
+    "contrasena":"user3",
+    "tipo": "usuario"}
+]
+
+
+
+
+
+   

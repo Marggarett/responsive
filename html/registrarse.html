@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/registrarse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/logo iub.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="container-fluid">
+        <div class="container" id="container">
+            <div class="form-container sign-up col-md-6">
+                <form>
+                    <h1 class="mb-4">Crear cuenta</h1>
+                    <div class="social-icons mb-4">
+                        <a href="https://www.unibarranquilla.edu.co/" class="icon" target="_blank"><i class="fa-solid fa-box-archive"></i></a>
+                        <a href="https://www.facebook.com/UniBarranquilla?sfnsn=scwspwa&mibextid=RUbZ1f" class="icon" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/unibarranquilla_?igsh=amw1NDMzOWl6enc5" class="icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/UniBarranquilla?t=qbeJQFMymm99tsbfU5jp1w&s=08" class="icon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <input type="text" class="form-control mb-3" placeholder="Nombre" required>
+                    <input type="email" class="form-control mb-3" placeholder="Correo electrónico" required>
+                    <input type="password" class="form-control mb-3" id="contraseña" placeholder="Contraseña" required>
+                    <button class="btn btn-primary btn-block">Registrarse</button>
+                </form>
+            </div>
+            <div class="form-container sign-in col-md-6">
+                <form>
+                    <h1 class="mb-4">Ingresar</h1>
+                    <div class="social-icons mb-4">
+                        <a href="https://www.unibarranquilla.edu.co/" class="icon" target="_blank"><i class="fa-solid fa-box-archive"></i></a>
+                        <a href="https://www.facebook.com/UniBarranquilla?sfnsn=scwspwa&mibextid=RUbZ1f" class="icon" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/unibarranquilla_?igsh=amw1NDMzOWl6enc5" class="icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/UniBarranquilla?t=qbeJQFMymm99tsbfU5jp1w&s=08" class="icon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <input type="email" id="usuario" class="form-control mb-3" placeholder="Correo electrónico">
+                    <input type="password" id="contrasena" class="form-control mb-3" placeholder="Contraseña">
+                    <a href="#" class="mb-3">¿Olvidaste tu contraseña?</a>
+                    <button type="button" onclick="ingresar()" class="btn btn-primary btn-block">Ingresar</button>
+                </form>
+            </div>
+            <div class="toggle-container col-md-12">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left col-md-6">
+                        <h1>¡Bienvenido!</h1>
+                        <p>Introduzca sus datos personales para utilizar todas las funciones del aplicativo</p>
+                        <button class="hidden btn btn-secondary" id="login">Ingresar</button>
+                    </div>
+                    <div class="toggle-panel toggle-right col-md-6">
+                        <h1>¡Bienvenido!</h1>
+                        <p>Regístrese con sus datos personales para utilizar todas las funciones del aplicativo</p>
+                        <button class="hidden btn btn-secondary" id="register">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/js/registrarse.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Como estas?",
+                "Saludos",
+                "Hola, ¿como estas hoy?",
+                "Saludos cordiales",
+                "Que tal?",
+                "Hola"
+            ],
+            "responses": [
+                "¡Hola!",
+                "Hola, ¿en qué puedo ayudarte ahora?",
+                "Hola, ¿en qué puedo ayudarte ahora?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adios",
+                "Hasta luego",
+                "Chao",
+                "Nos vemos luego",
+                "Hasta la próxima",
+                "Chao, que tengas un buen día"
+            ],
+            "responses": [
+                "¡Hasta luego!",
+                "Adiós, que tengas un excelente día."
+            ]
+        },
+        {
+            "tag": "trabajo",
+            "patterns": [
+                "¿En qué laboras o trabajas?",
+                "¿Ejerces alguna labor?",
+                "¿Eres empleado?",
+                "¿Cuál es tu profesión?",
+                "¿A qué te dedicas?",
+                "Háblame de tu trabajo"
+            ],
+            "responses": [
+                "Soy ingeniero de sistemas",
+                "Estoy laborando en el área de ingeniería, específicamente en sistemas y computación",
+                "Soy un modelo de lenguaje desarrollado por OpenAI. Mi función es asistir y proporcionar información en diversos temas."
+            ]
+        },
+        {
+            "tag": "inscripcion",
+            "patterns": [
+                "Inscribirse en Unibarranquilla",
+                "Documentos inscripción",
+                "Requisitos inscripción",
+                "¿Cómo es el proceso de inscripción?",
+                "¿Cuáles son los requisitos para inscribirse?",
+                "Háblame sobre la documentación necesaria"
+            ],
+            "responses": [
+                "Para inscribirte en Unibarranquilla, debes cargar en línea los documentos como el Diploma de bachiller y los resultados de las Pruebas ICFES Saber 11 en formato PDF legible."
+            ]
+        },
+        {
+            "tag": "matricula",
+            "patterns": [
+                "Matricular materias",
+                "Proceso de matrícula",
+                "¿Cómo matricular asignaturas?",
+                "Explícame el proceso de matrícula",
+                "¿Cuándo puedo matricular asignaturas?",
+                "Dime más sobre la matrícula automática"
+            ],
+            "responses": [
+                "La Matrícula Académica para estudiantes nuevos es automática. Los estudiantes antiguos pueden matricular asignaturas con su usuario y contraseña en las fechas asignadas."
+            ]
+        },
+        {
+            "tag": "portal_estudiantil",
+            "patterns": [
+                "Acceder al portal estudiantil",
+                "Portal de estudiantes",
+                "¿Cómo entrar al portal?"
+            ],
+            "responses": [
+                "Para acceder al portal de estudiantes, visita Unibarranquilla.eu.co a través de Google."
+            ]
+        },
+        {
+            "tag": "fechas_matriculas",
+            "patterns": [
+                "¿Cuándo realizan matrículas?",
+                "Fechas de matrícula",
+                "¿Cómo inscribirse en matrículas?"
+            ],
+            "responses": [
+                "La matrícula se realiza de manera online en la plataforma Academisoft."
+            ]
+        },
+        {
+            "tag": "grupos_disponibles",
+            "patterns": [
+                "¿Información grupos disponibles?",
+                "¿Cómo escoger un grupo?",
+                "Disponibilidad de grupos"
+            ],
+            "responses": [
+                "En la misma página de las matrículas, encontrarás un apartado que te permite escoger el grupo al que quieres pertenecer."
+            ]
+        },
+        {
+            "tag": "ayuda_financiera",
+            "patterns": [
+                "Solicitar ayuda financiera becas",
+                "Requisitos becas",
+                "Proceso de solicitud de becas"
+            ],
+            "responses": [
+                "Las becas se otorgan por méritos como alto rendimiento, participación en semilleros o presentación de proyectos."
+            ]
+        },
+        {
+            "tag": "horario_clases",
+            "patterns": [
+                "¿Obtener horario clases?",
+                "Ver horario de clases",
+                "Consulta de horario"
+            ],
+            "responses": [
+                "El horario está disponible en Academisoft o en la aplicación de Play Store llamada Unibarranquilla."
+            ]
+        },
+        {
+            "tag": "requisitos_graduacion",
+            "patterns": [
+                "¿Requisitos graduarme?",
+                "Proceso de graduación",
+                "Pasos para graduarme"
+            ],
+            "responses": [
+                "Para graduarte, debes haber cursado todos los módulos y mantener un buen promedio académico."
+            ]
+        },
+        {
+            "tag": "instalaciones_deportivas",
+            "patterns": [
+                "¿Dónde se encuentran instalaciones deportivas?",
+                "Instalaciones deportivas Unibarranquilla",
+                "Lugares para hacer deporte"
+            ],
+            "responses": [
+                "Actualmente, las instalaciones deportivas se encuentran en la sede de Soledad, en los bloques del fondo."
+            ]
+        }
+    ]
+}
